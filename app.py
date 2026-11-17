@@ -288,7 +288,7 @@ if page == "1 · Overview":
         _metric_card(col1, "Automated Tests", "99")
         _metric_card(col2, "Passing", "99 ✅")
         _metric_card(col3, "Stages Implemented", "5")
-        return
+        st.stop()
 
     # ── Result present ──
     r = result
