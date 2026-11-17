@@ -1,0 +1,30 @@
+{"patient_id": "PT000001", "encounter_id": "ENC000001", "event_date": "2026-04-08", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000001", "encounter_id": "ENC000001", "event_date": "2026-04-15", "day_index": "7", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 7 days"}
+{"patient_id": "PT000003", "encounter_id": "ENC000003", "event_date": "2026-04-01", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000003", "encounter_id": "ENC000003", "event_date": "2026-05-01", "day_index": "30", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 30 days"}
+{"patient_id": "PT000004", "encounter_id": "ENC000004", "event_date": "2024-03-21", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000004", "encounter_id": "ENC000004", "event_date": "2024-03-23", "day_index": "2", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 2 days"}
+{"patient_id": "PT000005", "encounter_id": "ENC000005", "event_date": "2025-05-12", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000005", "encounter_id": "ENC000005", "event_date": "2025-05-17", "day_index": "5", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 5 days"}
+{"patient_id": "PT000007", "encounter_id": "ENC000007", "event_date": "2024-02-21", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000007", "encounter_id": "ENC000007", "event_date": "2024-02-22", "day_index": "1", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 1 days"}
+{"patient_id": "PT000008", "encounter_id": "ENC000008", "event_date": "2024-01-06", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000008", "encounter_id": "ENC000008", "event_date": "2024-01-20", "day_index": "14", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 14 days"}
+{"patient_id": "PT000009", "encounter_id": "ENC000009", "event_date": "2026-09-28", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000009", "encounter_id": "ENC000009", "event_date": "2026-10-08", "day_index": "10", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 10 days"}
+{"patient_id": "PT000010", "encounter_id": "ENC000010", "event_date": "2026-09-22", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000010", "encounter_id": "ENC000010", "event_date": "2026-10-06", "day_index": "14", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 14 days"}
+{"patient_id": "PT000011", "encounter_id": "ENC000011", "event_date": "2024-04-21", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000011", "encounter_id": "ENC000011", "event_date": "2024-04-26", "day_index": "5", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 5 days"}
+{"patient_id": "PT000012", "encounter_id": "ENC000012", "event_date": "2026-02-15", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000012", "encounter_id": "ENC000012", "event_date": "2026-03-17", "day_index": "30", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 30 days"}
+{"patient_id": "PT000013", "encounter_id": "ENC000013", "event_date": "2026-07-10", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000013", "encounter_id": "ENC000013", "event_date": "2026-07-17", "day_index": "7", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 7 days"}
+{"patient_id": "PT000014", "encounter_id": "ENC000014", "event_date": "2026-10-16", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000014", "encounter_id": "ENC000014", "event_date": "2026-10-18", "day_index": "2", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 2 days"}
+{"patient_id": "PT000015", "encounter_id": "ENC000015", "event_date": "2026-10-27", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000015", "encounter_id": "ENC000015", "event_date": "2026-11-01", "day_index": "5", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 5 days"}
+{"patient_id": "PT000016", "encounter_id": "ENC000016", "event_date": "2025-10-10", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000016", "encounter_id": "ENC000016", "event_date": "2025-11-09", "day_index": "30", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 30 days"}
+{"patient_id": "PT000017", "encounter_id": "ENC000017", "event_date": "2026-05-07", "day_index": "0", "event_type": "encounter_start", "event_summary": "Synthetic encounter created"}
+{"patient_id": "PT000017", "encounter_id": "ENC000017", "event_date": "2026-05-08", "day_index": "1", "event_type": "symptom_duration_checkpoint", "event_summary": "Reported symptom duration checkpoint: 1 days"}

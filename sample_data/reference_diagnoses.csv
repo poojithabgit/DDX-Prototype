@@ -1,0 +1,16 @@
+patient_id,encounter_id,reference_condition_label,synthetic_condition_code,who_icd10_code,icd10cm_code,snomed_concept_id,snomed_display_name,mapping_status,label_role,validation_status
+PT000001,ENC000001,acute_gastroenteritis,SYN-007,A09,A09,25374005,Acute gastroenteritis (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000003,ENC000003,acute_bronchitis,SYN-004,J20.9,J20.9,10509002,Acute bronchitis (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000004,ENC000004,nonspecific_fatigue,SYN-020,R53,R53.83,84229001,Fatigue (finding),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000005,ENC000005,acute_gastroenteritis,SYN-007,A09,A09,25374005,Acute gastroenteritis (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000007,ENC000007,viral_upper_respiratory_infection,SYN-001,J06.9,J06.9,54150009,Acute upper respiratory tract infection (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000008,ENC000008,nonspecific_fatigue,SYN-020,R53,R53.83,84229001,Fatigue (finding),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000009,ENC000009,tension_type_headache,SYN-010,G44.2,G44.209,398057008,Tension-type headache (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000010,ENC000010,allergic_rhinitis,SYN-006,J30.4,J30.9,61582004,Allergic rhinitis (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000011,ENC000011,community_acquired_pneumonia,SYN-003,J18.9,J18.9,385093006,Community acquired pneumonia (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000012,ENC000012,asthma_exacerbation,SYN-005,J45.9,J45.901,284549007,Acute exacerbation of asthma (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000013,ENC000013,allergic_rhinitis,SYN-006,J30.4,J30.9,61582004,Allergic rhinitis (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000014,ENC000014,gerd,SYN-008,K21.9,K21.9,235595009,Gastroesophageal reflux disease (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000015,ENC000015,influenza_like_illness,SYN-002,J11.1,J11.1,721111003,Influenza-like illness (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000016,ENC000016,allergic_rhinitis,SYN-006,J30.4,J30.9,61582004,Allergic rhinitis (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated
+PT000017,ENC000017,community_acquired_pneumonia,SYN-003,J18.9,J18.9,385093006,Community acquired pneumonia (disorder),verified,synthetic_reference_label_not_clinical_diagnosis,not_clinically_validated

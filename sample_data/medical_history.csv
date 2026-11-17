@@ -1,0 +1,16 @@
+patient_id,encounter_id,past_medical_history,allergies,family_history,social_history,history_source
+PT000001,ENC000001,not_recorded,seasonal_allergy,cardiovascular_disease_reported,smoker_reported,HX-PT000001
+PT000003,ENC000003,asthma,seasonal_allergy,diabetes_reported,non_smoker_reported,HX-PT000003
+PT000004,ENC000004,hypertension,seasonal_allergy,none_reported,non_smoker_reported,HX-PT000004
+PT000005,ENC000005,none_reported,seasonal_allergy,none_reported,smoker_reported,HX-PT000005
+PT000007,ENC000007,none_reported,seasonal_allergy,none_reported,not_recorded,HX-PT000007
+PT000008,ENC000008,not_recorded,seasonal_allergy,cardiovascular_disease_reported,smoker_reported,HX-PT000008
+PT000009,ENC000009,asthma,not_recorded,cardiovascular_disease_reported,non_smoker_reported,HX-PT000009
+PT000010,ENC000010,not_recorded,seasonal_allergy,none_reported,not_recorded,HX-PT000010
+PT000011,ENC000011,asthma,not_recorded,not_recorded,smoker_reported,HX-PT000011
+PT000012,ENC000012,asthma,not_recorded,not_recorded,non_smoker_reported,HX-PT000012
+PT000013,ENC000013,asthma,not_recorded,none_reported,not_recorded,HX-PT000013
+PT000014,ENC000014,diabetes,penicillin_reported,diabetes_reported,smoker_reported,HX-PT000014
+PT000015,ENC000015,diabetes,penicillin_reported,cardiovascular_disease_reported,not_recorded,HX-PT000015
+PT000016,ENC000016,none_reported,none_reported,not_recorded,smoker_reported,HX-PT000016
+PT000017,ENC000017,not_recorded,not_recorded,diabetes_reported,not_recorded,HX-PT000017

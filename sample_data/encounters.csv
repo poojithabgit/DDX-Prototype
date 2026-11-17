@@ -1,0 +1,16 @@
+encounter_id,patient_id,encounter_date,encounter_type,department,status
+ENC000001,PT000001,2026-04-08,outpatient,primary_care,completed
+ENC000003,PT000003,2026-04-01,outpatient,family_medicine,completed
+ENC000004,PT000004,2024-03-21,urgent_care,primary_care,completed
+ENC000005,PT000005,2025-05-12,urgent_care,respiratory,completed
+ENC000007,PT000007,2024-02-21,urgent_care,primary_care,completed
+ENC000008,PT000008,2024-01-06,outpatient,family_medicine,completed
+ENC000009,PT000009,2026-09-28,outpatient,general_medicine,completed
+ENC000010,PT000010,2026-09-22,urgent_care,primary_care,completed
+ENC000011,PT000011,2024-04-21,outpatient,general_medicine,completed
+ENC000012,PT000012,2026-02-15,follow_up,respiratory,completed
+ENC000013,PT000013,2026-07-10,follow_up,family_medicine,completed
+ENC000014,PT000014,2026-10-16,outpatient,respiratory,completed
+ENC000015,PT000015,2026-10-27,urgent_care,general_medicine,completed
+ENC000016,PT000016,2025-10-10,outpatient,family_medicine,completed
+ENC000017,PT000017,2026-05-07,urgent_care,family_medicine,completed

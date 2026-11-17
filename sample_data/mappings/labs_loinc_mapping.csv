@@ -1,0 +1,14 @@
+original_code,original_display,original_unit,proposed_loinc_num,official_loinc_display,ucum_unit,mapping_status,reference_source,reviewer_approval,notes
+CRP,CRP,mg/L,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,mg/L,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Exact LOINC analyte and UCUM unit match.
+HbA1c,HbA1c,%,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,%,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Exact LOINC ratio test and UCUM unit match.
+TSH,TSH,mIU/L,3016-3,Thyrotropin [Units/volume] in Serum or Plasma,[mU]/L,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Standard LOINC for serum TSH; UCUM unit [mU]/L equivalent to mIU/L.
+WBC,WBC,10^3/uL,6690-2,Leukocytes [#/volume] in Blood by Automated count,10*3/uL,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Automated leukocyte count. UCUM syntax 10*3/uL.
+creatinine,creatinine,mg/dL,2160-0,Creatinine [Mass/volume] in Serum or Plasma,mg/dL,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Serum creatinine mass concentration.
+fasting_glucose,fasting_glucose,mg/dL,1558-6,Fasting glucose [Mass/volume] in Serum or Plasma,mg/dL,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Serum fasting glucose mass concentration.
+ferritin,ferritin,ng/mL,2276-4,Ferritin [Mass/volume] in Serum or Plasma,ng/mL,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Serum ferritin mass concentration.
+hemoglobin,hemoglobin,g/dL,718-7,Hemoglobin [Mass/volume] in Blood,g/dL,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Automated blood hemoglobin concentration.
+platelets,platelets,10^3/uL,777-3,Platelets [#/volume] in Blood by Automated count,10*3/uL,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Automated platelet count. UCUM syntax 10*3/uL.
+potassium,potassium,mmol/L,2823-3,Potassium [Moles/volume] in Serum or Plasma,mmol/L,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Serum potassium substance concentration.
+sodium,sodium,mmol/L,2951-2,Sodium [Moles/volume] in Serum or Plasma,mmol/L,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Serum sodium substance concentration.
+urine_leukocyte_esterase,urine_leukocyte_esterase,qualitative,5799-2,Leukocyte esterase [Presence] in Urine by Test strip,1,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Qualitative dipstick test; UCUM unit '1' for ordinal/nominal presence.
+urine_nitrite,urine_nitrite,qualitative,5802-4,Nitrite [Presence] in Urine by Test strip,1,verified,Regenstrief LOINC / loinc.org,pending_clinical_lead_signoff,Qualitative dipstick test; UCUM unit '1' for ordinal/nominal presence.

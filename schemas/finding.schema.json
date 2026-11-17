@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/medagents/finding.schema.json",
+  "title": "Finding",
+  "description": "One fact about the patient (symptom, sign, vital, lab, exposure, imaging finding). See docs/02-ingestion.md and docs/04-case-graph.md.",
+  "type": "object",
+  "required": ["id", "encounter_id", "kind", "code", "assertion", "provenance", "trust_tier", "confirmation"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "description": "Unique within the encounter, e.g. f-0007"},
+    "encounter_id": {"type": "string"},
+    "kind": {"enum": ["symptom", "sign", "vital", "lab", "exposure", "history", "medication_effect", "imaging"]},
+    "code": {
+      "type": "object",
+      "required": ["system", "code", "display"],
+      "additionalProperties": false,
+      "properties": {
+        "system": {"enum": ["SNOMED-CT", "LOINC", "LOCAL"]},
+        "code": {"type": "string"},
+        "display": {"type": "string"}
+      }
+    },
+    "original_text": {"type": "string", "description": "The words as written or spoken in the source"},
+    "value": {"type": ["number", "string", "boolean", "null"]},
+    "unit": {"type": ["string", "null"], "description": "UCUM unit, e.g. 10*3/uL"},
+    "reference_range": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "low": {"type": ["number", "null"]},
+        "high": {"type": ["number", "null"]},
+        "source": {"enum": ["local-lab", "kb-default"]}
+      }
+    },
+    "interpretation": {"enum": ["low", "normal", "high", "critical_low", "critical_high", "abnormal", "not_applicable"]},
+    "assertion": {"enum": ["present", "absent", "possible", "historical", "family", "unknown"]},
+    "onset_day": {"type": ["integer", "null"], "description": "Days relative to presentation (day 0). Negative = before today."},
+    "duration_days": {"type": ["number", "null"]},
+    "trend": {"enum": ["rising", "falling", "stable", "single_value", "unknown"]},
+    "finding_group": {"type": ["string", "null"], "description": "KB group for correlated findings, e.g. cbc_dengue_pattern"},
+    "provenance": {
+      "type": "object",
+      "required": ["source_id", "source_type", "extractor", "method"],
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {"type": "string"},
+        "source_type": {"enum": ["vitals_form", "exam_form", "intake_form", "transcript", "clinical_note", "lab_lis", "lab_pdf", "lab_photo", "ehr_feed", "pharmacy", "imaging_model", "radiology_report"]},
+        "fhir_resource": {"type": ["string", "null"], "description": "e.g. Observation/123"},
+        "char_start": {"type": ["integer", "null"]},
+        "char_end": {"type": ["integer", "null"]},
+        "quote": {"type": ["string", "null"], "description": "Exact text from the source. Must match the source character for character."},
+        "speaker": {"enum": ["patient", "doctor", "nurse", "attendant", "unknown", null]},
+        "timestamp_in_source": {"type": ["string", "null"], "description": "e.g. 01:55 in audio"},
+        "extractor": {"type": "string", "description": "name@version of the component that produced this fact"},
+        "method": {"enum": ["field_mapping", "rules", "llm", "ocr", "asr", "model"]}
+      }
+    },
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "trust_tier": {"enum": ["T1", "T2", "T3", "T4", "T5", "T6"]},
+    "confirmation": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {"enum": ["not_required", "pending", "confirmed", "edited", "rejected"]},
+        "by": {"type": ["string", "null"]},
+        "at": {"type": ["string", "null"], "format": "date-time"},
+        "original_value": {"description": "Value before a clinician edit"}
+      }
+    }
+  }
+}

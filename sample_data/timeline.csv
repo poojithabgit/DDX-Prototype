@@ -1,0 +1,31 @@
+patient_id,encounter_id,event_date,day_index,event_type,event_summary
+PT000001,ENC000001,2026-04-08,0,encounter_start,Synthetic encounter created
+PT000001,ENC000001,2026-04-15,7,symptom_duration_checkpoint,Reported symptom duration checkpoint: 7 days
+PT000003,ENC000003,2026-04-01,0,encounter_start,Synthetic encounter created
+PT000003,ENC000003,2026-05-01,30,symptom_duration_checkpoint,Reported symptom duration checkpoint: 30 days
+PT000004,ENC000004,2024-03-21,0,encounter_start,Synthetic encounter created
+PT000004,ENC000004,2024-03-23,2,symptom_duration_checkpoint,Reported symptom duration checkpoint: 2 days
+PT000005,ENC000005,2025-05-12,0,encounter_start,Synthetic encounter created
+PT000005,ENC000005,2025-05-17,5,symptom_duration_checkpoint,Reported symptom duration checkpoint: 5 days
+PT000007,ENC000007,2024-02-21,0,encounter_start,Synthetic encounter created
+PT000007,ENC000007,2024-02-22,1,symptom_duration_checkpoint,Reported symptom duration checkpoint: 1 days
+PT000008,ENC000008,2024-01-06,0,encounter_start,Synthetic encounter created
+PT000008,ENC000008,2024-01-20,14,symptom_duration_checkpoint,Reported symptom duration checkpoint: 14 days
+PT000009,ENC000009,2026-09-28,0,encounter_start,Synthetic encounter created
+PT000009,ENC000009,2026-10-08,10,symptom_duration_checkpoint,Reported symptom duration checkpoint: 10 days
+PT000010,ENC000010,2026-09-22,0,encounter_start,Synthetic encounter created
+PT000010,ENC000010,2026-10-06,14,symptom_duration_checkpoint,Reported symptom duration checkpoint: 14 days
+PT000011,ENC000011,2024-04-21,0,encounter_start,Synthetic encounter created
+PT000011,ENC000011,2024-04-26,5,symptom_duration_checkpoint,Reported symptom duration checkpoint: 5 days
+PT000012,ENC000012,2026-02-15,0,encounter_start,Synthetic encounter created
+PT000012,ENC000012,2026-03-17,30,symptom_duration_checkpoint,Reported symptom duration checkpoint: 30 days
+PT000013,ENC000013,2026-07-10,0,encounter_start,Synthetic encounter created
+PT000013,ENC000013,2026-07-17,7,symptom_duration_checkpoint,Reported symptom duration checkpoint: 7 days
+PT000014,ENC000014,2026-10-16,0,encounter_start,Synthetic encounter created
+PT000014,ENC000014,2026-10-18,2,symptom_duration_checkpoint,Reported symptom duration checkpoint: 2 days
+PT000015,ENC000015,2026-10-27,0,encounter_start,Synthetic encounter created
+PT000015,ENC000015,2026-11-01,5,symptom_duration_checkpoint,Reported symptom duration checkpoint: 5 days
+PT000016,ENC000016,2025-10-10,0,encounter_start,Synthetic encounter created
+PT000016,ENC000016,2025-11-09,30,symptom_duration_checkpoint,Reported symptom duration checkpoint: 30 days
+PT000017,ENC000017,2026-05-07,0,encounter_start,Synthetic encounter created
+PT000017,ENC000017,2026-05-08,1,symptom_duration_checkpoint,Reported symptom duration checkpoint: 1 days

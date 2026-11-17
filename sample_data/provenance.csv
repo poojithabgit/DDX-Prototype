@@ -1,0 +1,136 @@
+patient_id,fact_id,fact,source_type,source_quote,extractor,method,review_status
+PT000001,PT000001-000000,diarrhea,clinical_note,diarrhea,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000001,PT000001-000001,nausea,clinical_note,nausea,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000001,PT000001-000002,vomiting,clinical_note,vomiting,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000001,PT000001-000003,abdominal_cramps,clinical_note,abdominal cramps,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000001,PT000001-000004,chest_pain,clinical_note,denies chest pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000001,PT000001-000005,wheeze,clinical_note,denies wheeze,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000001,PT000001-000006,acid_regurgitation,clinical_note,denies acid regurgitation,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000001,PT000001-000007,night_sweats,clinical_note,denies night sweats,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000001,PT000001-000008,vitals,vitals_form,temperature 37.1 C; SpO2 95%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000001,PT000001-000009,reference_condition,synthetic_label,acute_gastroenteritis,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000003,PT000003-000021,cough,clinical_note,cough,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000003,PT000003-000022,sore_throat,clinical_note,sore throat,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000003,PT000003-000023,fatigue,clinical_note,fatigue,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000003,PT000003-000024,mild_wheeze,clinical_note,mild wheeze,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000003,PT000003-000025,leg_swelling,clinical_note,denies leg swelling,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000003,PT000003-000026,urinary_pain,clinical_note,denies urinary pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000003,PT000003-000027,vitals,vitals_form,temperature 37.2 C; SpO2 94%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000003,PT000003-000028,reference_condition,synthetic_label,acute_bronchitis,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000004,PT000004-000029,fatigue,clinical_note,fatigue,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000004,PT000004-000030,poor_sleep,clinical_note,poor sleep,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000004,PT000004-000031,reduced_energy,clinical_note,reduced energy,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000004,PT000004-000032,fever,clinical_note,denies fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000004,PT000004-000033,chest_pain,clinical_note,denies chest pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000004,PT000004-000034,urinary_frequency,clinical_note,denies urinary frequency,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000004,PT000004-000035,neck_tension,clinical_note,denies neck tension,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000004,PT000004-000036,vitals,vitals_form,temperature 36.8 C; SpO2 100%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000004,PT000004-000037,reference_condition,synthetic_label,nonspecific_fatigue,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000005,PT000005-000038,diarrhea,clinical_note,diarrhea,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000005,PT000005-000039,nausea,clinical_note,nausea,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000005,PT000005-000040,vomiting,clinical_note,vomiting,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000005,PT000005-000041,abdominal_cramps,clinical_note,abdominal cramps,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000005,PT000005-000042,chest_pain,clinical_note,denies chest pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000005,PT000005-000043,wheeze,clinical_note,denies wheeze,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000005,PT000005-000044,vitals,vitals_form,temperature 37.5 C; SpO2 99%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000005,PT000005-000045,reference_condition,synthetic_label,acute_gastroenteritis,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000007,PT000007-000057,fever,clinical_note,fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000058,cough,clinical_note,cough,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000059,sore_throat,clinical_note,sore throat,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000060,runny_nose,clinical_note,runny nose,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000061,fatigue,clinical_note,fatigue,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000062,light_sensitivity,clinical_note,light sensitivity,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000063,feeling_on_edge,clinical_note,feeling on edge,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000064,shortness_of_breath,clinical_note,denies shortness of breath,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000065,chest_pain,clinical_note,denies chest pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000007,PT000007-000066,vitals,vitals_form,temperature 38.0 C; SpO2 96%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000007,PT000007-000067,reference_condition,synthetic_label,viral_upper_respiratory_infection,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000008,PT000008-000068,fatigue,clinical_note,fatigue,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000008,PT000008-000069,poor_sleep,clinical_note,poor sleep,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000008,PT000008-000070,reduced_energy,clinical_note,reduced energy,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000008,PT000008-000071,fever,clinical_note,denies fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000008,PT000008-000072,chest_pain,clinical_note,denies chest pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000008,PT000008-000073,vitals,vitals_form,temperature 37.2 C; SpO2 96%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000008,PT000008-000074,reference_condition,synthetic_label,nonspecific_fatigue,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000009,PT000009-000075,headache,clinical_note,headache,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000009,PT000009-000076,neck_tension,clinical_note,neck tension,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000009,PT000009-000077,fatigue,clinical_note,fatigue,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000009,PT000009-000078,fever,clinical_note,denies fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000009,PT000009-000079,vomiting,clinical_note,denies vomiting,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000009,PT000009-000080,vitals,vitals_form,temperature 37.3 C; SpO2 100%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000009,PT000009-000081,reference_condition,synthetic_label,tension_type_headache,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000010,PT000010-000082,sneezing,clinical_note,sneezing,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000083,runny_nose,clinical_note,runny nose,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000084,itchy_eyes,clinical_note,itchy eyes,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000085,nasal_congestion,clinical_note,nasal congestion,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000086,diarrhea,clinical_note,diarrhea,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000087,sore_throat,clinical_note,sore throat,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000088,fever,clinical_note,denies fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000089,myalgia,clinical_note,denies myalgia,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000090,eye_discharge,clinical_note,denies eye discharge,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000091,increased_thirst,clinical_note,denies increased thirst,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000010,PT000010-000092,vitals,vitals_form,temperature 36.4 C; SpO2 96%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000010,PT000010-000093,reference_condition,synthetic_label,allergic_rhinitis,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000011,PT000011-000094,fever,clinical_note,fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000095,cough,clinical_note,cough,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000096,shortness_of_breath,clinical_note,shortness of breath,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000097,fatigue,clinical_note,fatigue,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000098,chest_discomfort,clinical_note,chest discomfort,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000099,mild_wheeze,clinical_note,mild wheeze,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000100,eye_discharge,clinical_note,eye discharge,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000101,urinary_pain,clinical_note,denies urinary pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000102,rash,clinical_note,denies rash,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000011,PT000011-000103,vitals,vitals_form,temperature 38.4 C; SpO2 94%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000011,PT000011-000104,reference_condition,synthetic_label,community_acquired_pneumonia,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000012,PT000012-000105,shortness_of_breath,clinical_note,shortness of breath,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000106,wheeze,clinical_note,wheeze,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000107,cough,clinical_note,cough,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000108,chest_tightness,clinical_note,chest tightness,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000109,feeling_on_edge,clinical_note,feeling on edge,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000110,fever,clinical_note,denies fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000111,leg_swelling,clinical_note,denies leg swelling,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000112,exertional_breathlessness,clinical_note,denies exertional breathlessness,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000113,sore_throat,clinical_note,denies sore throat,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000012,PT000012-000114,vitals,vitals_form,temperature 36.7 C; SpO2 92%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000012,PT000012-000115,reference_condition,synthetic_label,asthma_exacerbation,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000013,PT000013-000116,sneezing,clinical_note,sneezing,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000013,PT000013-000117,runny_nose,clinical_note,runny nose,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000013,PT000013-000118,itchy_eyes,clinical_note,itchy eyes,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000013,PT000013-000119,nasal_congestion,clinical_note,nasal congestion,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000013,PT000013-000120,fever,clinical_note,denies fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000013,PT000013-000121,myalgia,clinical_note,denies myalgia,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000013,PT000013-000122,vitals,vitals_form,temperature 36.8 C; SpO2 96%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000013,PT000013-000123,reference_condition,synthetic_label,allergic_rhinitis,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000014,PT000014-000124,heartburn,clinical_note,heartburn,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000014,PT000014-000125,acid_regurgitation,clinical_note,acid regurgitation,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000014,PT000014-000126,upper_abdominal_discomfort,clinical_note,upper abdominal discomfort,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000014,PT000014-000127,fever,clinical_note,denies fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000014,PT000014-000128,diarrhea,clinical_note,denies diarrhea,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000014,PT000014-000129,vitals,vitals_form,temperature 36.7 C; SpO2 98%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000014,PT000014-000130,reference_condition,synthetic_label,gerd,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000015,PT000015-000131,fever,clinical_note,fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000015,PT000015-000132,cough,clinical_note,cough,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000015,PT000015-000133,myalgia,clinical_note,myalgia,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000015,PT000015-000134,headache,clinical_note,headache,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000015,PT000015-000135,fatigue,clinical_note,fatigue,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000015,PT000015-000136,rash,clinical_note,denies rash,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000015,PT000015-000137,urinary_pain,clinical_note,denies urinary pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000015,PT000015-000138,vitals,vitals_form,temperature 39.7 C; SpO2 100%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000015,PT000015-000139,reference_condition,synthetic_label,influenza_like_illness,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000016,PT000016-000140,sneezing,clinical_note,sneezing,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000016,PT000016-000141,runny_nose,clinical_note,runny nose,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000016,PT000016-000142,itchy_eyes,clinical_note,itchy eyes,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000016,PT000016-000143,nasal_congestion,clinical_note,nasal congestion,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000016,PT000016-000144,fever,clinical_note,denies fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000016,PT000016-000145,myalgia,clinical_note,denies myalgia,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000016,PT000016-000146,vitals,vitals_form,temperature 37.1 C; SpO2 98%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000016,PT000016-000147,reference_condition,synthetic_label,allergic_rhinitis,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated
+PT000017,PT000017-000148,fever,clinical_note,fever,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000017,PT000017-000149,cough,clinical_note,cough,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000017,PT000017-000150,shortness_of_breath,clinical_note,shortness of breath,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000017,PT000017-000151,fatigue,clinical_note,fatigue,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000017,PT000017-000152,chest_discomfort,clinical_note,chest discomfort,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000017,PT000017-000153,urinary_pain,clinical_note,denies urinary pain,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000017,PT000017-000154,rash,clinical_note,denies rash,synthetic-template-v1,template_extraction,synthetic_unvalidated
+PT000017,PT000017-000155,vitals,vitals_form,temperature 39.5 C; SpO2 97%,synthetic-template-v1,structured_ingestion,synthetic_unvalidated
+PT000017,PT000017-000156,reference_condition,synthetic_label,community_acquired_pneumonia,synthetic-template-v1,synthetic_ground_truth_assignment,synthetic_unvalidated

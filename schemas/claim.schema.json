@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/medagents/claim.schema.json",
+  "title": "Claim",
+  "description": "One proposed claim or interpretation linking a finding, test, or drug to a hypothesis or case. See docs/INTERFACES.md and docs/08-verification.md.",
+  "type": "object",
+  "required": ["claim_id", "encounter_id", "type", "proposed_by", "round"],
+  "additionalProperties": false,
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "description": "Unique identifier for the claim, e.g. c-0031"
+    },
+    "encounter_id": {
+      "type": "string",
+      "description": "Encounter ID this claim belongs to, e.g. ENC000001"
+    },
+    "type": {
+      "enum": [
+        "FINDING_DISEASE_LINK",
+        "LAB_INTERPRETATION",
+        "DRUG_CAUSE",
+        "TEST_SAFETY",
+        "FACT_CONSISTENCY",
+        "IMAGING_FINDING",
+        "MNM_STATUS"
+      ],
+      "description": "Type of claim to be verified"
+    },
+    "finding_id": {
+      "type": ["string", "null"],
+      "description": "The finding being linked or interpreted, e.g. f-0007"
+    },
+    "hypothesis_id": {
+      "type": ["string", "null"],
+      "description": "The candidate diagnosis being linked, e.g. h-dengue"
+    },
+    "test_code": {
+      "type": ["string", "null"],
+      "description": "Relevant for TEST_SAFETY claims"
+    },
+    "proposed_relation": {
+      "type": ["string", "null"],
+      "enum": ["supports", "refutes", null],
+      "description": "Proposed direction of evidence"
+    },
+    "proposed_by": {
+      "type": "string",
+      "description": "Component or prompt that produced this claim, e.g. proposer@llm-A:prompt-v3 or kb-lookup@0.1.0"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Reasoning round in which this claim was proposed"
+    }
+  }
+}

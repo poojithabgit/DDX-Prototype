@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/medagents/hypothesis.schema.json",
+  "title": "Hypothesis",
+  "description": "One candidate diagnosis and its scores. See docs/07-reasoning-and-scoring.md.",
+  "type": "object",
+  "required": ["id", "encounter_id", "name", "origin", "must_not_miss", "status", "round"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "description": "e.g. h-dengue"},
+    "encounter_id": {"type": "string"},
+    "code": {
+      "type": ["object", "null"],
+      "description": "SNOMED CT concept. Null if the LLM proposed something not in the KB.",
+      "required": ["system", "code", "display"],
+      "properties": {
+        "system": {"const": "SNOMED-CT"},
+        "code": {"type": "string"},
+        "display": {"type": "string"}
+      }
+    },
+    "icd10": {"type": ["string", "null"], "description": "For output and reports only"},
+    "name": {"type": "string"},
+    "origin": {
+      "type": "array",
+      "items": {"enum": ["KB", "MNM", "LLM", "DRUG_CHECKER", "CLINICIAN"]},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "must_not_miss": {"type": "boolean"},
+    "rationale": {"type": ["string", "null"], "description": "Proposer's text. Explanation only, never used for scoring."},
+    "prior": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "From the KB. Null means unscored."},
+    "p_raw": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "p_calibrated": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "band": {"enum": ["HIGH", "MODERATE", "LOW", "VERY_LOW", "UNSCORED"]},
+    "lr_trail": {
+      "type": "array",
+      "description": "Every LR applied, for the audit and the 'why?' panel",
+      "items": {
+        "type": "object",
+        "required": ["finding_or_group", "lr", "kb_entry", "verdict_id"],
+        "additionalProperties": false,
+        "properties": {
+          "finding_or_group": {"type": "string"},
+          "lr": {"type": "number", "exclusiveMinimum": 0},
+          "kb_entry": {"type": "string"},
+          "verdict_id": {"type": "string"}
+        }
+      }
+    },
+    "status": {"enum": ["active", "ruled_out", "confirmed_by_clinician", "rejected_by_clinician"]},
+    "ruled_out_by": {"type": ["string", "null"], "description": "Test result id or clinician decision id"},
+    "kb_version": {"type": ["string", "null"]},
+    "calibration_version": {"type": ["string", "null"]},
+    "round": {"type": "integer", "minimum": 0}
+  }
+}

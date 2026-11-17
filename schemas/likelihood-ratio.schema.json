@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/medagents/likelihood-ratio.schema.json",
+  "title": "LikelihoodRatioEntry",
+  "description": "One knowledge-base link from a finding (or finding group) to a disease. See docs/05-knowledge-base.md.",
+  "type": "object",
+  "required": ["id", "disease", "finding", "population", "source", "quality", "reviewed_by", "version"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "description": "e.g. lr-0042"},
+    "disease": {"$ref": "#/$defs/concept"},
+    "finding": {"$ref": "#/$defs/concept"},
+    "finding_group": {"type": ["string", "null"], "description": "Set when this finding is correlated with others"},
+    "is_group_combined": {"type": "boolean", "default": false, "description": "True if this LR is for the whole group pattern"},
+    "lr_positive": {"type": ["number", "null"], "exclusiveMinimum": 0},
+    "lr_negative": {"type": ["number", "null"], "exclusiveMinimum": 0},
+    "sensitivity": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "specificity": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "valid_illness_days": {
+      "type": ["object", "null"],
+      "description": "For tests whose accuracy depends on the day of illness",
+      "properties": {"from": {"type": "integer"}, "to": {"type": "integer"}}
+    },
+    "population": {"type": "string", "description": "Who the numbers were measured in, e.g. adults with acute fever, endemic area, outpatient"},
+    "source": {
+      "type": "object",
+      "required": ["type", "citation"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"enum": ["systematic_review", "study", "rational_clinical_exam", "local_data", "model_validation", "expert_opinion"]},
+        "citation": {"type": "string"},
+        "doi": {"type": ["string", "null"]}
+      }
+    },
+    "quality": {"enum": ["high", "moderate", "low", "expert-opinion"]},
+    "reviewed_by": {"type": "array", "items": {"type": "string"}, "minItems": 2},
+    "version": {"type": "string", "description": "KB release, e.g. kb-0.1"},
+    "notes": {"type": ["string", "null"]}
+  },
+  "anyOf": [
+    {"required": ["lr_positive"]},
+    {"required": ["lr_negative"]},
+    {"required": ["sensitivity", "specificity"]}
+  ],
+  "$defs": {
+    "concept": {
+      "type": "object",
+      "required": ["system", "code", "display"],
+      "additionalProperties": false,
+      "properties": {
+        "system": {"enum": ["SNOMED-CT", "LOINC", "LOCAL"]},
+        "code": {"type": "string"},
+        "display": {"type": "string"}
+      }
+    }
+  }
+}

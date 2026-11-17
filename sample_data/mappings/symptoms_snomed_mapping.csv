@@ -1,0 +1,58 @@
+original_code,original_display,proposed_standard_code,official_display,semantic_tag,mapping_status,reference_source,reviewer_approval,notes
+SYM-0001,abdominal_cramps,51197009,Abdominal cramp (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0002,acid_regurgitation,69875003,Acid regurgitation (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0003,appetite_loss,79890006,Loss of appetite (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (anorexia).
+SYM-0004,chest_discomfort,279017006,Chest discomfort (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0005,chest_pain,29857009,Chest pain (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0006,chest_tightness,248598004,Chest tightness (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0007,cough,49727002,Cough (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0008,diarrhea,62315008,Diarrhea (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0009,dizziness,404640003,Dizziness (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0010,dry_skin,16386004,Dry skin (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (xeroderma).
+SYM-0011,exertional_breathlessness,282840006,Dyspnea on exertion (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0012,eye_discharge,271790007,Discharge from eye (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0013,eye_irritation,247076008,Irritation of eye (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0014,family_history_positive,,,observable,unmapped,SNOMED CT International Edition,requires_manual_clinical_review,Unspecified family history. Requires manual review to identify specific condition.
+SYM-0015,fatigue,84229001,Fatigue (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0016,feeling_on_edge,247926002,Feeling nervous (finding),finding,provisional,SNOMED CT International Edition,requires_manual_clinical_review,Colloquial psych/somatic term. Provisional mapping to feeling nervous; needs clinical review.
+SYM-0017,fever,386661006,Fever (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0018,frequent_urination,162116003,Micturition frequency (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0019,headache,25064002,Headache (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0020,heartburn,16331000,Heartburn (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (pyrosis).
+SYM-0021,increased_thirst,17173007,Excessive thirst (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (polydipsia).
+SYM-0022,itchy_eyes,247167006,Itchy eyes (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0023,itchy_skin,418363000,Itching of skin (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (pruritus).
+SYM-0024,joint_pain,57676002,Joint pain (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (arthralgia).
+SYM-0025,leg_swelling,248490000,Swollen legs (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (lower limb edema).
+SYM-0026,light_sensitivity,397755001,Photophobia (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (photophobia).
+SYM-0027,low_back_pain,279039007,Low back pain (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0028,lower_abdominal_discomfort,247355005,Lower abdominal pain (finding),finding,provisional,SNOMED CT International Edition,requires_manual_clinical_review,Discomfort mapped provisionally to lower abdominal pain; clinical review required to confirm if distinct from discomfort.
+SYM-0029,mild_wheeze,56018004,Wheezing (finding),finding,provisional,SNOMED CT International Edition,requires_manual_clinical_review,Mapped to base finding wheezing; 'mild' severity qualifier stripped.
+SYM-0030,morning_stiffness,249914001,Morning stiffness (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0031,movement_related_pain,274663001,Pain increased by movement (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0032,muscle_tenderness,249942007,Muscle tenderness (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0033,myalgia,68962001,Myalgia (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0034,nasal_congestion,68235000,Nasal congestion (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0035,nausea,422587007,Nausea (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0036,neck_tension,249940004,Muscle tension (finding),finding,provisional,SNOMED CT International Edition,requires_manual_clinical_review,May represent neck stiffness or muscular spasm. Clinical review required.
+SYM-0037,night_sweats,42984000,Night sweats (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0038,no_symptoms,8170008,Asymptomatic (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0039,pallor,119250001,Pallor (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0040,palpitations,80313002,Palpitations (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0041,poor_sleep,26544005,Insomnia (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0042,productive_cough,28743005,Productive cough (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0043,rash,271807003,Eruption of skin (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (skin rash).
+SYM-0044,red_eye,193892004,Red eye (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0045,reduced_energy,224960004,Lack of energy (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0046,reduced_range_of_motion,299034005,Limited range of joint movement (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0047,runny_nose,64531003,Rhinorrhea (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0048,shortness_of_breath,267036007,Dyspnea (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0049,skin_redness,386713009,Erythema (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0050,sneezing,13779001,Sneezing (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0051,sore_throat,162397003,Pain in throat (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0052,upper_abdominal_discomfort,247354009,Epigastric pain (finding),finding,provisional,SNOMED CT International Edition,requires_manual_clinical_review,Discomfort mapped provisionally to epigastric pain; clinical review required to confirm nuance.
+SYM-0053,urinary_frequency,162116003,Micturition frequency (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (synonymous with SYM-0018).
+SYM-0054,urinary_pain,49650001,Dysuria (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent (painful urination).
+SYM-0055,vomiting,422400008,Vomiting (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.
+SYM-0056,weight_change,,,finding,unmapped,SNOMED CT International Edition,requires_manual_clinical_review,Direction of weight change (gain vs loss) is unspecified. Cannot map without clinical loss/gain detail.
+SYM-0057,wheeze,56018004,Wheezing (finding),finding,verified,SNOMED CT International Edition,pending_clinical_lead_signoff,Exact clinical finding equivalent.

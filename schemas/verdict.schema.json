@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/medagents/verdict.schema.json",
+  "title": "Verdict",
+  "description": "One verifier result for one claim. See docs/08-verification.md.",
+  "type": "object",
+  "required": ["verdict_id", "claim_id", "result", "deterministic", "verifier", "reason"],
+  "additionalProperties": false,
+  "properties": {
+    "verdict_id": {"type": "string"},
+    "claim_id": {"type": "string"},
+    "claim_type": {"enum": ["FINDING_DISEASE_LINK", "LAB_INTERPRETATION", "DRUG_CAUSE", "TEST_SAFETY", "FACT_CONSISTENCY", "IMAGING_FINDING", "MNM_STATUS"]},
+    "result": {"enum": ["SUPPORT", "REFUTE", "UNVERIFIABLE", "NOT_APPLICABLE"]},
+    "kb_entry": {"type": ["string", "null"], "description": "KB id used by a deterministic verifier, e.g. lr-0042"},
+    "rule_id": {"type": ["string", "null"], "description": "Rule used by a deterministic verifier"},
+    "citation": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "source": {"type": "string", "description": "Corpus name and version"},
+        "chunk_id": {"type": "string"},
+        "quote": {"type": "string", "description": "Exact passage. Checked character for character against the corpus."}
+      }
+    },
+    "deterministic": {"type": "boolean"},
+    "verifier": {"type": "string", "description": "name@version"},
+    "model": {"type": ["string", "null"], "description": "For LLM-judged verifiers: model name and version, and the prompt version"},
+    "reason": {"type": "string"},
+    "unverifiable_reason": {"enum": ["no_source_found", "tool_unavailable", "conflicting_sources", "judges_disagree", "out_of_scope", null]},
+    "latency_ms": {"type": "integer", "minimum": 0}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"result": {"enum": ["SUPPORT", "REFUTE"]}}},
+      "then": {
+        "anyOf": [
+          {"required": ["kb_entry"], "properties": {"kb_entry": {"type": "string"}}},
+          {"required": ["rule_id"], "properties": {"rule_id": {"type": "string"}}},
+          {"required": ["citation"], "properties": {"citation": {"type": "object", "required": ["source", "chunk_id", "quote"]}}}
+        ]
+      }
+    }
+  ]
+}

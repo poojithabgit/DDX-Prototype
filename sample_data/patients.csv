@@ -1,0 +1,16 @@
+patient_id,synthetic_name,age_years,sex,synthetic_record,dataset_version
+PT000001,Meera Joshi,28,other_or_not_recorded,True,1
+PT000003,Aarav Reddy,39,male,True,1
+PT000004,Ishita Rao,40,female,True,1
+PT000005,Maya Iyer,63,other_or_not_recorded,True,1
+PT000007,Ananya Das,21,male,True,1
+PT000008,Ananya Singh,63,other_or_not_recorded,True,1
+PT000009,Rohan Khan,34,male,True,1
+PT000010,Vihaan Reddy,33,other_or_not_recorded,True,1
+PT000011,Meera Khan,69,female,True,1
+PT000012,Aditi Iyer,76,male,True,1
+PT000013,Ananya Joshi,77,other_or_not_recorded,True,1
+PT000014,Reyansh Iyer,57,other_or_not_recorded,True,1
+PT000015,Ishita Das,79,other_or_not_recorded,True,1
+PT000016,Maya Iyer,52,male,True,1
+PT000017,Ishita Gupta,22,male,True,1

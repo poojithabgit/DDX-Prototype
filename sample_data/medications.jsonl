@@ -1,0 +1,15 @@
+{"patient_id": "PT000001", "encounter_id": "ENC000001", "medication_or_plan": "oral_rehydration_example", "status": "example_only_not_prescription", "source_id": "MED-PT000001"}
+{"patient_id": "PT000003", "encounter_id": "ENC000003", "medication_or_plan": "supportive_care", "status": "example_only_not_prescription", "source_id": "MED-PT000003"}
+{"patient_id": "PT000004", "encounter_id": "ENC000004", "medication_or_plan": "supportive_care", "status": "example_only_not_prescription", "source_id": "MED-PT000004"}
+{"patient_id": "PT000005", "encounter_id": "ENC000005", "medication_or_plan": "oral_rehydration_example", "status": "example_only_not_prescription", "source_id": "MED-PT000005"}
+{"patient_id": "PT000007", "encounter_id": "ENC000007", "medication_or_plan": "supportive_care", "status": "example_only_not_prescription", "source_id": "MED-PT000007"}
+{"patient_id": "PT000008", "encounter_id": "ENC000008", "medication_or_plan": "supportive_care", "status": "example_only_not_prescription", "source_id": "MED-PT000008"}
+{"patient_id": "PT000009", "encounter_id": "ENC000009", "medication_or_plan": "analgesic_example", "status": "example_only_not_prescription", "source_id": "MED-PT000009"}
+{"patient_id": "PT000010", "encounter_id": "ENC000010", "medication_or_plan": "antihistamine_example", "status": "example_only_not_prescription", "source_id": "MED-PT000010"}
+{"patient_id": "PT000011", "encounter_id": "ENC000011", "medication_or_plan": "antibiotic_example", "status": "example_only_not_prescription", "source_id": "MED-PT000011"}
+{"patient_id": "PT000012", "encounter_id": "ENC000012", "medication_or_plan": "inhaler_example", "status": "example_only_not_prescription", "source_id": "MED-PT000012"}
+{"patient_id": "PT000013", "encounter_id": "ENC000013", "medication_or_plan": "antihistamine_example", "status": "example_only_not_prescription", "source_id": "MED-PT000013"}
+{"patient_id": "PT000014", "encounter_id": "ENC000014", "medication_or_plan": "acid_suppression_example", "status": "example_only_not_prescription", "source_id": "MED-PT000014"}
+{"patient_id": "PT000015", "encounter_id": "ENC000015", "medication_or_plan": "supportive_care", "status": "example_only_not_prescription", "source_id": "MED-PT000015"}
+{"patient_id": "PT000016", "encounter_id": "ENC000016", "medication_or_plan": "antihistamine_example", "status": "example_only_not_prescription", "source_id": "MED-PT000016"}
+{"patient_id": "PT000017", "encounter_id": "ENC000017", "medication_or_plan": "antibiotic_example", "status": "example_only_not_prescription", "source_id": "MED-PT000017"}

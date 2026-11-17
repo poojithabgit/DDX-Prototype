@@ -1,0 +1,33 @@
+patient_id,encounter_id,test_name,loinc_num,loinc_long_common_name,value,unit,ucum_unit,reference_low,reference_high,mapping_status,result_date,source_id
+PT000001,ENC000001,sodium,2951-2,Sodium [Moles/volume] in Serum or Plasma,135.4,mmol/L,mmol/L,135.0,145.0,verified,2026-04-08,LAB-PT000001
+PT000001,ENC000001,potassium,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.4,mmol/L,mmol/L,3.5,5.1,verified,2026-04-08,LAB-PT000001
+PT000003,ENC000003,hemoglobin,718-7,Hemoglobin [Mass/volume] in Blood,14.5,g/dL,g/dL,12.0,16.0,verified,2026-04-01,LAB-PT000003
+PT000003,ENC000003,WBC,6690-2,Leukocytes [#/volume] in Blood by Automated count,8.0,10^3/uL,10*3/uL,4.0,11.0,verified,2026-04-01,LAB-PT000003
+PT000003,ENC000003,platelets,777-3,Platelets [#/volume] in Blood by Automated count,314.5,10^3/uL,10*3/uL,150.0,400.0,verified,2026-04-01,LAB-PT000003
+PT000004,ENC000004,hemoglobin,718-7,Hemoglobin [Mass/volume] in Blood,14.6,g/dL,g/dL,12.0,16.0,verified,2024-03-21,LAB-PT000004
+PT000004,ENC000004,WBC,6690-2,Leukocytes [#/volume] in Blood by Automated count,10.5,10^3/uL,10*3/uL,4.0,11.0,verified,2024-03-21,LAB-PT000004
+PT000004,ENC000004,platelets,777-3,Platelets [#/volume] in Blood by Automated count,336.9,10^3/uL,10*3/uL,150.0,400.0,verified,2024-03-21,LAB-PT000004
+PT000004,ENC000004,TSH,3016-3,Thyrotropin [Units/volume] in Serum or Plasma,2.6,mIU/L,[mU]/L,0.4,4.0,verified,2024-03-21,LAB-PT000004
+PT000005,ENC000005,sodium,2951-2,Sodium [Moles/volume] in Serum or Plasma,141.3,mmol/L,mmol/L,135.0,145.0,verified,2025-05-12,LAB-PT000005
+PT000005,ENC000005,potassium,2823-3,Potassium [Moles/volume] in Serum or Plasma,4.5,mmol/L,mmol/L,3.5,5.1,verified,2025-05-12,LAB-PT000005
+PT000007,ENC000007,hemoglobin,718-7,Hemoglobin [Mass/volume] in Blood,13.1,g/dL,g/dL,12.0,16.0,verified,2024-02-21,LAB-PT000007
+PT000007,ENC000007,WBC,6690-2,Leukocytes [#/volume] in Blood by Automated count,8.1,10^3/uL,10*3/uL,4.0,11.0,verified,2024-02-21,LAB-PT000007
+PT000007,ENC000007,platelets,777-3,Platelets [#/volume] in Blood by Automated count,182.4,10^3/uL,10*3/uL,150.0,400.0,verified,2024-02-21,LAB-PT000007
+PT000008,ENC000008,hemoglobin,718-7,Hemoglobin [Mass/volume] in Blood,14.7,g/dL,g/dL,12.0,16.0,verified,2024-01-06,LAB-PT000008
+PT000008,ENC000008,WBC,6690-2,Leukocytes [#/volume] in Blood by Automated count,6.3,10^3/uL,10*3/uL,4.0,11.0,verified,2024-01-06,LAB-PT000008
+PT000008,ENC000008,platelets,777-3,Platelets [#/volume] in Blood by Automated count,243.1,10^3/uL,10*3/uL,150.0,400.0,verified,2024-01-06,LAB-PT000008
+PT000008,ENC000008,TSH,3016-3,Thyrotropin [Units/volume] in Serum or Plasma,1.8,mIU/L,[mU]/L,0.4,4.0,verified,2024-01-06,LAB-PT000008
+PT000011,ENC000011,hemoglobin,718-7,Hemoglobin [Mass/volume] in Blood,12.4,g/dL,g/dL,12.0,16.0,verified,2024-04-21,LAB-PT000011
+PT000011,ENC000011,WBC,6690-2,Leukocytes [#/volume] in Blood by Automated count,5.3,10^3/uL,10*3/uL,4.0,11.0,verified,2024-04-21,LAB-PT000011
+PT000011,ENC000011,platelets,777-3,Platelets [#/volume] in Blood by Automated count,348.4,10^3/uL,10*3/uL,150.0,400.0,verified,2024-04-21,LAB-PT000011
+PT000011,ENC000011,CRP,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,33.6,mg/L,mg/L,0.0,10.0,verified,2024-04-21,LAB-PT000011
+PT000012,ENC000012,hemoglobin,718-7,Hemoglobin [Mass/volume] in Blood,15.4,g/dL,g/dL,12.0,16.0,verified,2026-02-15,LAB-PT000012
+PT000012,ENC000012,WBC,6690-2,Leukocytes [#/volume] in Blood by Automated count,8.2,10^3/uL,10*3/uL,4.0,11.0,verified,2026-02-15,LAB-PT000012
+PT000012,ENC000012,platelets,777-3,Platelets [#/volume] in Blood by Automated count,246.6,10^3/uL,10*3/uL,150.0,400.0,verified,2026-02-15,LAB-PT000012
+PT000015,ENC000015,hemoglobin,718-7,Hemoglobin [Mass/volume] in Blood,14.0,g/dL,g/dL,12.0,16.0,verified,2026-10-27,LAB-PT000015
+PT000015,ENC000015,WBC,6690-2,Leukocytes [#/volume] in Blood by Automated count,10.1,10^3/uL,10*3/uL,4.0,11.0,verified,2026-10-27,LAB-PT000015
+PT000015,ENC000015,platelets,777-3,Platelets [#/volume] in Blood by Automated count,194.2,10^3/uL,10*3/uL,150.0,400.0,verified,2026-10-27,LAB-PT000015
+PT000017,ENC000017,hemoglobin,718-7,Hemoglobin [Mass/volume] in Blood,12.5,g/dL,g/dL,12.0,16.0,verified,2026-05-07,LAB-PT000017
+PT000017,ENC000017,WBC,6690-2,Leukocytes [#/volume] in Blood by Automated count,7.9,10^3/uL,10*3/uL,4.0,11.0,verified,2026-05-07,LAB-PT000017
+PT000017,ENC000017,platelets,777-3,Platelets [#/volume] in Blood by Automated count,284.7,10^3/uL,10*3/uL,150.0,400.0,verified,2026-05-07,LAB-PT000017
+PT000017,ENC000017,CRP,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,52.6,mg/L,mg/L,0.0,10.0,verified,2026-05-07,LAB-PT000017

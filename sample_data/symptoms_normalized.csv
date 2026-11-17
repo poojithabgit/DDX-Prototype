@@ -1,0 +1,106 @@
+patient_id,encounter_id,concept,concept_code,snomed_concept_id,snomed_display_name,mapping_status,assertion,temporality,duration_days,certainty,source_id,normalized_by
+PT000001,ENC000001,diarrhea,SYM-0008,62315008,Diarrhea (finding),verified,present,current,7.0,reported_or_observed,NOTE-PT000001,rules+synthetic_llm_placeholder
+PT000001,ENC000001,nausea,SYM-0035,422587007,Nausea (finding),verified,present,current,7.0,reported_or_observed,NOTE-PT000001,rules+synthetic_llm_placeholder
+PT000001,ENC000001,vomiting,SYM-0055,422400008,Vomiting (finding),verified,present,current,7.0,reported_or_observed,NOTE-PT000001,rules+synthetic_llm_placeholder
+PT000001,ENC000001,abdominal_cramps,SYM-0001,51197009,Abdominal cramp (finding),verified,present,current,7.0,reported_or_observed,NOTE-PT000001,rules+synthetic_llm_placeholder
+PT000001,ENC000001,chest_pain,SYM-0005,29857009,Chest pain (finding),verified,absent,current,,reported_negative,NOTE-PT000001,rules+synthetic_llm_placeholder
+PT000001,ENC000001,wheeze,SYM-0057,56018004,Wheezing (finding),verified,absent,current,,reported_negative,NOTE-PT000001,rules+synthetic_llm_placeholder
+PT000001,ENC000001,acid_regurgitation,SYM-0002,69875003,Acid regurgitation (finding),verified,absent,current,,reported_negative,NOTE-PT000001,rules+synthetic_llm_placeholder
+PT000001,ENC000001,night_sweats,SYM-0037,42984000,Night sweats (finding),verified,absent,current,,reported_negative,NOTE-PT000001,rules+synthetic_llm_placeholder
+PT000003,ENC000003,cough,SYM-0007,49727002,Cough (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000003,rules+synthetic_llm_placeholder
+PT000003,ENC000003,sore_throat,SYM-0051,162397003,Pain in throat (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000003,rules+synthetic_llm_placeholder
+PT000003,ENC000003,fatigue,SYM-0015,84229001,Fatigue (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000003,rules+synthetic_llm_placeholder
+PT000003,ENC000003,mild_wheeze,SYM-0029,56018004,Wheezing (finding),provisional,present,current,30.0,reported_or_observed,NOTE-PT000003,rules+synthetic_llm_placeholder
+PT000003,ENC000003,leg_swelling,SYM-0025,248490000,Swollen legs (finding),verified,absent,current,,reported_negative,NOTE-PT000003,rules+synthetic_llm_placeholder
+PT000003,ENC000003,urinary_pain,SYM-0054,49650001,Dysuria (finding),verified,absent,current,,reported_negative,NOTE-PT000003,rules+synthetic_llm_placeholder
+PT000004,ENC000004,fatigue,SYM-0015,84229001,Fatigue (finding),verified,present,current,2.0,reported_or_observed,NOTE-PT000004,rules+synthetic_llm_placeholder
+PT000004,ENC000004,poor_sleep,SYM-0041,26544005,Insomnia (finding),verified,present,current,2.0,reported_or_observed,NOTE-PT000004,rules+synthetic_llm_placeholder
+PT000004,ENC000004,reduced_energy,SYM-0045,224960004,Lack of energy (finding),verified,present,current,2.0,reported_or_observed,NOTE-PT000004,rules+synthetic_llm_placeholder
+PT000004,ENC000004,fever,SYM-0017,386661006,Fever (finding),verified,absent,current,,reported_negative,NOTE-PT000004,rules+synthetic_llm_placeholder
+PT000004,ENC000004,chest_pain,SYM-0005,29857009,Chest pain (finding),verified,absent,current,,reported_negative,NOTE-PT000004,rules+synthetic_llm_placeholder
+PT000004,ENC000004,urinary_frequency,SYM-0053,162116003,Micturition frequency (finding),verified,absent,current,,reported_negative,NOTE-PT000004,rules+synthetic_llm_placeholder
+PT000004,ENC000004,neck_tension,SYM-0036,249940004,Muscle tension (finding),provisional,absent,current,,reported_negative,NOTE-PT000004,rules+synthetic_llm_placeholder
+PT000005,ENC000005,diarrhea,SYM-0008,62315008,Diarrhea (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000005,rules+synthetic_llm_placeholder
+PT000005,ENC000005,nausea,SYM-0035,422587007,Nausea (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000005,rules+synthetic_llm_placeholder
+PT000005,ENC000005,vomiting,SYM-0055,422400008,Vomiting (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000005,rules+synthetic_llm_placeholder
+PT000005,ENC000005,abdominal_cramps,SYM-0001,51197009,Abdominal cramp (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000005,rules+synthetic_llm_placeholder
+PT000005,ENC000005,chest_pain,SYM-0005,29857009,Chest pain (finding),verified,absent,current,,reported_negative,NOTE-PT000005,rules+synthetic_llm_placeholder
+PT000005,ENC000005,wheeze,SYM-0057,56018004,Wheezing (finding),verified,absent,current,,reported_negative,NOTE-PT000005,rules+synthetic_llm_placeholder
+PT000007,ENC000007,fever,SYM-0017,386661006,Fever (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000007,ENC000007,cough,SYM-0007,49727002,Cough (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000007,ENC000007,sore_throat,SYM-0051,162397003,Pain in throat (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000007,ENC000007,runny_nose,SYM-0047,64531003,Rhinorrhea (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000007,ENC000007,fatigue,SYM-0015,84229001,Fatigue (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000007,ENC000007,light_sensitivity,SYM-0026,397755001,Photophobia (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000007,ENC000007,feeling_on_edge,SYM-0016,247926002,Feeling nervous (finding),provisional,present,current,1.0,reported_or_observed,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000007,ENC000007,shortness_of_breath,SYM-0048,267036007,Dyspnea (finding),verified,absent,current,,reported_negative,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000007,ENC000007,chest_pain,SYM-0005,29857009,Chest pain (finding),verified,absent,current,,reported_negative,NOTE-PT000007,rules+synthetic_llm_placeholder
+PT000008,ENC000008,fatigue,SYM-0015,84229001,Fatigue (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000008,rules+synthetic_llm_placeholder
+PT000008,ENC000008,poor_sleep,SYM-0041,26544005,Insomnia (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000008,rules+synthetic_llm_placeholder
+PT000008,ENC000008,reduced_energy,SYM-0045,224960004,Lack of energy (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000008,rules+synthetic_llm_placeholder
+PT000008,ENC000008,fever,SYM-0017,386661006,Fever (finding),verified,absent,current,,reported_negative,NOTE-PT000008,rules+synthetic_llm_placeholder
+PT000008,ENC000008,chest_pain,SYM-0005,29857009,Chest pain (finding),verified,absent,current,,reported_negative,NOTE-PT000008,rules+synthetic_llm_placeholder
+PT000009,ENC000009,headache,SYM-0019,25064002,Headache (finding),verified,present,current,10.0,reported_or_observed,NOTE-PT000009,rules+synthetic_llm_placeholder
+PT000009,ENC000009,neck_tension,SYM-0036,249940004,Muscle tension (finding),provisional,present,current,10.0,reported_or_observed,NOTE-PT000009,rules+synthetic_llm_placeholder
+PT000009,ENC000009,fatigue,SYM-0015,84229001,Fatigue (finding),verified,present,current,10.0,reported_or_observed,NOTE-PT000009,rules+synthetic_llm_placeholder
+PT000009,ENC000009,fever,SYM-0017,386661006,Fever (finding),verified,absent,current,,reported_negative,NOTE-PT000009,rules+synthetic_llm_placeholder
+PT000009,ENC000009,vomiting,SYM-0055,422400008,Vomiting (finding),verified,absent,current,,reported_negative,NOTE-PT000009,rules+synthetic_llm_placeholder
+PT000010,ENC000010,sneezing,SYM-0050,13779001,Sneezing (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,runny_nose,SYM-0047,64531003,Rhinorrhea (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,itchy_eyes,SYM-0022,247167006,Itchy eyes (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,nasal_congestion,SYM-0034,68235000,Nasal congestion (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,diarrhea,SYM-0008,62315008,Diarrhea (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,sore_throat,SYM-0051,162397003,Pain in throat (finding),verified,present,current,14.0,reported_or_observed,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,fever,SYM-0017,386661006,Fever (finding),verified,absent,current,,reported_negative,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,myalgia,SYM-0033,68962001,Myalgia (finding),verified,absent,current,,reported_negative,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,eye_discharge,SYM-0012,271790007,Discharge from eye (finding),verified,absent,current,,reported_negative,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000010,ENC000010,increased_thirst,SYM-0021,17173007,Excessive thirst (finding),verified,absent,current,,reported_negative,NOTE-PT000010,rules+synthetic_llm_placeholder
+PT000011,ENC000011,fever,SYM-0017,386661006,Fever (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000011,ENC000011,cough,SYM-0007,49727002,Cough (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000011,ENC000011,shortness_of_breath,SYM-0048,267036007,Dyspnea (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000011,ENC000011,fatigue,SYM-0015,84229001,Fatigue (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000011,ENC000011,chest_discomfort,SYM-0004,279017006,Chest discomfort (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000011,ENC000011,mild_wheeze,SYM-0029,56018004,Wheezing (finding),provisional,present,current,5.0,reported_or_observed,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000011,ENC000011,eye_discharge,SYM-0012,271790007,Discharge from eye (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000011,ENC000011,urinary_pain,SYM-0054,49650001,Dysuria (finding),verified,absent,current,,reported_negative,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000011,ENC000011,rash,SYM-0043,271807003,Eruption of skin (finding),verified,absent,current,,reported_negative,NOTE-PT000011,rules+synthetic_llm_placeholder
+PT000012,ENC000012,shortness_of_breath,SYM-0048,267036007,Dyspnea (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000012,ENC000012,wheeze,SYM-0057,56018004,Wheezing (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000012,ENC000012,cough,SYM-0007,49727002,Cough (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000012,ENC000012,chest_tightness,SYM-0006,248598004,Chest tightness (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000012,ENC000012,feeling_on_edge,SYM-0016,247926002,Feeling nervous (finding),provisional,present,current,30.0,reported_or_observed,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000012,ENC000012,fever,SYM-0017,386661006,Fever (finding),verified,absent,current,,reported_negative,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000012,ENC000012,leg_swelling,SYM-0025,248490000,Swollen legs (finding),verified,absent,current,,reported_negative,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000012,ENC000012,exertional_breathlessness,SYM-0011,282840006,Dyspnea on exertion (finding),verified,absent,current,,reported_negative,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000012,ENC000012,sore_throat,SYM-0051,162397003,Pain in throat (finding),verified,absent,current,,reported_negative,NOTE-PT000012,rules+synthetic_llm_placeholder
+PT000013,ENC000013,sneezing,SYM-0050,13779001,Sneezing (finding),verified,present,current,7.0,reported_or_observed,NOTE-PT000013,rules+synthetic_llm_placeholder
+PT000013,ENC000013,runny_nose,SYM-0047,64531003,Rhinorrhea (finding),verified,present,current,7.0,reported_or_observed,NOTE-PT000013,rules+synthetic_llm_placeholder
+PT000013,ENC000013,itchy_eyes,SYM-0022,247167006,Itchy eyes (finding),verified,present,current,7.0,reported_or_observed,NOTE-PT000013,rules+synthetic_llm_placeholder
+PT000013,ENC000013,nasal_congestion,SYM-0034,68235000,Nasal congestion (finding),verified,present,current,7.0,reported_or_observed,NOTE-PT000013,rules+synthetic_llm_placeholder
+PT000013,ENC000013,fever,SYM-0017,386661006,Fever (finding),verified,absent,current,,reported_negative,NOTE-PT000013,rules+synthetic_llm_placeholder
+PT000013,ENC000013,myalgia,SYM-0033,68962001,Myalgia (finding),verified,absent,current,,reported_negative,NOTE-PT000013,rules+synthetic_llm_placeholder
+PT000014,ENC000014,heartburn,SYM-0020,16331000,Heartburn (finding),verified,present,current,2.0,reported_or_observed,NOTE-PT000014,rules+synthetic_llm_placeholder
+PT000014,ENC000014,acid_regurgitation,SYM-0002,69875003,Acid regurgitation (finding),verified,present,current,2.0,reported_or_observed,NOTE-PT000014,rules+synthetic_llm_placeholder
+PT000014,ENC000014,upper_abdominal_discomfort,SYM-0052,247354009,Epigastric pain (finding),provisional,present,current,2.0,reported_or_observed,NOTE-PT000014,rules+synthetic_llm_placeholder
+PT000014,ENC000014,fever,SYM-0017,386661006,Fever (finding),verified,absent,current,,reported_negative,NOTE-PT000014,rules+synthetic_llm_placeholder
+PT000014,ENC000014,diarrhea,SYM-0008,62315008,Diarrhea (finding),verified,absent,current,,reported_negative,NOTE-PT000014,rules+synthetic_llm_placeholder
+PT000015,ENC000015,fever,SYM-0017,386661006,Fever (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000015,rules+synthetic_llm_placeholder
+PT000015,ENC000015,cough,SYM-0007,49727002,Cough (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000015,rules+synthetic_llm_placeholder
+PT000015,ENC000015,myalgia,SYM-0033,68962001,Myalgia (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000015,rules+synthetic_llm_placeholder
+PT000015,ENC000015,headache,SYM-0019,25064002,Headache (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000015,rules+synthetic_llm_placeholder
+PT000015,ENC000015,fatigue,SYM-0015,84229001,Fatigue (finding),verified,present,current,5.0,reported_or_observed,NOTE-PT000015,rules+synthetic_llm_placeholder
+PT000015,ENC000015,rash,SYM-0043,271807003,Eruption of skin (finding),verified,absent,current,,reported_negative,NOTE-PT000015,rules+synthetic_llm_placeholder
+PT000015,ENC000015,urinary_pain,SYM-0054,49650001,Dysuria (finding),verified,absent,current,,reported_negative,NOTE-PT000015,rules+synthetic_llm_placeholder
+PT000016,ENC000016,sneezing,SYM-0050,13779001,Sneezing (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000016,rules+synthetic_llm_placeholder
+PT000016,ENC000016,runny_nose,SYM-0047,64531003,Rhinorrhea (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000016,rules+synthetic_llm_placeholder
+PT000016,ENC000016,itchy_eyes,SYM-0022,247167006,Itchy eyes (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000016,rules+synthetic_llm_placeholder
+PT000016,ENC000016,nasal_congestion,SYM-0034,68235000,Nasal congestion (finding),verified,present,current,30.0,reported_or_observed,NOTE-PT000016,rules+synthetic_llm_placeholder
+PT000016,ENC000016,fever,SYM-0017,386661006,Fever (finding),verified,absent,current,,reported_negative,NOTE-PT000016,rules+synthetic_llm_placeholder
+PT000016,ENC000016,myalgia,SYM-0033,68962001,Myalgia (finding),verified,absent,current,,reported_negative,NOTE-PT000016,rules+synthetic_llm_placeholder
+PT000017,ENC000017,fever,SYM-0017,386661006,Fever (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000017,rules+synthetic_llm_placeholder
+PT000017,ENC000017,cough,SYM-0007,49727002,Cough (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000017,rules+synthetic_llm_placeholder
+PT000017,ENC000017,shortness_of_breath,SYM-0048,267036007,Dyspnea (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000017,rules+synthetic_llm_placeholder
+PT000017,ENC000017,fatigue,SYM-0015,84229001,Fatigue (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000017,rules+synthetic_llm_placeholder
+PT000017,ENC000017,chest_discomfort,SYM-0004,279017006,Chest discomfort (finding),verified,present,current,1.0,reported_or_observed,NOTE-PT000017,rules+synthetic_llm_placeholder
+PT000017,ENC000017,urinary_pain,SYM-0054,49650001,Dysuria (finding),verified,absent,current,,reported_negative,NOTE-PT000017,rules+synthetic_llm_placeholder
+PT000017,ENC000017,rash,SYM-0043,271807003,Eruption of skin (finding),verified,absent,current,,reported_negative,NOTE-PT000017,rules+synthetic_llm_placeholder

@@ -1,0 +1,15 @@
+{"patient_id": "PT000001", "synthetic_name": "Meera Joshi", "age_years": "28", "sex": "other_or_not_recorded", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000003", "synthetic_name": "Aarav Reddy", "age_years": "39", "sex": "male", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000004", "synthetic_name": "Ishita Rao", "age_years": "40", "sex": "female", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000005", "synthetic_name": "Maya Iyer", "age_years": "63", "sex": "other_or_not_recorded", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000007", "synthetic_name": "Ananya Das", "age_years": "21", "sex": "male", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000008", "synthetic_name": "Ananya Singh", "age_years": "63", "sex": "other_or_not_recorded", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000009", "synthetic_name": "Rohan Khan", "age_years": "34", "sex": "male", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000010", "synthetic_name": "Vihaan Reddy", "age_years": "33", "sex": "other_or_not_recorded", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000011", "synthetic_name": "Meera Khan", "age_years": "69", "sex": "female", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000012", "synthetic_name": "Aditi Iyer", "age_years": "76", "sex": "male", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000013", "synthetic_name": "Ananya Joshi", "age_years": "77", "sex": "other_or_not_recorded", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000014", "synthetic_name": "Reyansh Iyer", "age_years": "57", "sex": "other_or_not_recorded", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000015", "synthetic_name": "Ishita Das", "age_years": "79", "sex": "other_or_not_recorded", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000016", "synthetic_name": "Maya Iyer", "age_years": "52", "sex": "male", "synthetic_record": "True", "dataset_version": "1"}
+{"patient_id": "PT000017", "synthetic_name": "Ishita Gupta", "age_years": "22", "sex": "male", "synthetic_record": "True", "dataset_version": "1"}
