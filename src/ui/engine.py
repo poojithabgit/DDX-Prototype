@@ -17,8 +17,22 @@ from __future__ import annotations
 
 import csv
 import os
+import sys
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Tuple
+
+# ── Repo-root anchor ──────────────────────────────────────────────────────────
+# This file lives at <repo_root>/src/ui/engine.py
+# Two levels up → <repo_root>
+_ENGINE_DIR = os.path.dirname(os.path.abspath(__file__))
+_REPO_ROOT = os.path.dirname(os.path.dirname(_ENGINE_DIR))
+
+# Ensure repo root is on sys.path so all src.* imports resolve on Streamlit Cloud
+if _REPO_ROOT not in sys.path:
+    sys.path.insert(0, _REPO_ROOT)
+
+# Default sample_data path — absolute, works on Windows and Linux
+_DEFAULT_SAMPLE_DIR = os.path.join(_REPO_ROOT, "sample_data")
 
 from src.common.clock import DeterministicIdFactory, FixedClock
 from src.common.models import (
@@ -92,8 +106,10 @@ class PipelineRunResult:
     total_events: int
 
 
-def load_available_encounters(sample_dir: str = "sample_data") -> List[EncounterMetadata]:
+def load_available_encounters(sample_dir: str = None) -> List[EncounterMetadata]:
     """Read encounter and patient metadata from sample CSV files."""
+    if sample_dir is None:
+        sample_dir = _DEFAULT_SAMPLE_DIR
     patients_file = os.path.join(sample_dir, "patients.csv")
     encounters_file = os.path.join(sample_dir, "encounters.csv")
 
@@ -130,18 +146,11 @@ def load_available_encounters(sample_dir: str = "sample_data") -> List[Encounter
 
 def run_pipeline_for_encounter(
     encounter_id: str,
-    sample_dir: str = "sample_data",
+    sample_dir: str = None,
 ) -> PipelineRunResult:
-    """Execute the complete Medagents Stages 1–5 pipeline for a chosen synthetic encounter.
-
-    Follows the deterministic execution flow in scripts/run_demo.py:
-    1. Extract findings from sample_data.
-    2. Populate append-only EventStore via scoped GraphClient (stored as T6).
-    3. Simulate clinician checkpoint 1 confirmation (remains T6, synthetic provenance preserved).
-    4. Propose candidate hypotheses and evidence claims.
-    5. Verify claims through deterministic verifiers.
-    6. Run deterministic Bayesian scoring engine.
-    """
+    """Execute the complete Medagents Stages 1–5 pipeline for a chosen synthetic encounter."""
+    if sample_dir is None:
+        sample_dir = _DEFAULT_SAMPLE_DIR
     encounters = load_available_encounters(sample_dir)
     metadata = next((e for e in encounters if e.encounter_id == encounter_id), None)
     if not metadata:

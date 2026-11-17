@@ -14,10 +14,11 @@ from __future__ import annotations
 import os
 import sys
 
-# Ensure workspace root is on the path
-_ROOT = os.path.dirname(os.path.abspath(__file__))
-if _ROOT not in sys.path:
-    sys.path.insert(0, _ROOT)
+# ── Repo-root anchor — works on Windows (local) and Linux (Streamlit Cloud) ──
+# app.py lives at <repo_root>/app.py
+_APP_DIR = os.path.dirname(os.path.abspath(__file__))
+if _APP_DIR not in sys.path:
+    sys.path.insert(0, _APP_DIR)
 
 import plotly.graph_objects as go
 import streamlit as st
