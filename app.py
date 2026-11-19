@@ -50,10 +50,46 @@ st.markdown(
     """
 <style>
     /* Base background and fonts */
-    .stApp { background-color: #f8fafc; }
+    .stApp { background-color: #f8fafc; color: #0f2a4a !important; }
     section[data-testid="stSidebar"] { background-color: #0f2a4a; }
-    section[data-testid="stSidebar"] * { color: #e8f0fe !important; }
-    section[data-testid="stSidebar"] .stSelectbox label { color: #a0bfe0 !important; }
+    /* Sidebar text stays light; avoid applying this to every nested widget element. */
+    section[data-testid="stSidebar"] { color: #e8f0fe !important; }
+    section[data-testid="stSidebar"] p,
+    section[data-testid="stSidebar"] h1,
+    section[data-testid="stSidebar"] h2,
+    section[data-testid="stSidebar"] h3,
+    section[data-testid="stSidebar"] label,
+    section[data-testid="stSidebar"] .stMarkdown,
+    section[data-testid="stSidebar"] [data-testid="stCaptionContainer"] {
+        color: #e8f0fe !important;
+    }
+    section[data-testid="stSidebar"] .stSelectbox label {
+        color: #e8f0fe !important;
+    }
+
+    /* Streamlit/BaseWeb select controls: dark selected value on a white field. */
+    section[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"],
+    section[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] > div {
+        background-color: #ffffff !important;
+        border-color: #cbd5e1 !important;
+    }
+    section[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] *,
+    section[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] span,
+    section[data-testid="stSidebar"] [data-testid="stSelectbox"] [data-baseweb="select"] input {
+        color: #0f2a4a !important;
+        -webkit-text-fill-color: #0f2a4a !important;
+        fill: #0f2a4a !important;
+        opacity: 1 !important;
+    }
+    /* Dropdown menu is rendered in a portal outside the sidebar. */
+    [data-baseweb="popover"] [role="listbox"],
+    [data-baseweb="popover"] [role="option"],
+    [data-baseweb="popover"] [role="option"] * {
+        background-color: #ffffff !important;
+        color: #0f2a4a !important;
+        -webkit-text-fill-color: #0f2a4a !important;
+        opacity: 1 !important;
+    }
 
     /* Safety banner */
     .safety-banner {
@@ -111,7 +147,7 @@ st.markdown(
     .danger-box { background:#fef2f2; border:1px solid #fecaca; border-radius:8px; padding:12px 16px; margin:10px 0; font-size:0.88rem; color:#7f1d1d; }
 
     /* Checklist items */
-    .check-pass { color:#166534; font-weight:600; margin:4px 0; }
+    .check-pass { color:#0044aa; font-weight:600; margin:4px 0; }
     .check-info { color:#1e40af; font-weight:600; margin:4px 0; }
     .check-warn { color:#854d0e; font-weight:600; margin:4px 0; }
 </style>
@@ -206,15 +242,29 @@ with st.sidebar:
         all_encounters = []
         st.error(f"Could not load encounters: {exc}")
 
-    enc_options = {f"{e.encounter_id} — {e.synthetic_name}": e.encounter_id for e in all_encounters}
-    sel_label = st.selectbox(
-        "Select Encounter",
-        list(enc_options.keys()),
-        key="enc_selector",
-    )
-    sel_enc_id = enc_options.get(sel_label, "ENC000015")
+    enc_options = {
+        f"{e.encounter_id} — {e.synthetic_name}": e.encounter_id
+        for e in all_encounters
+    }
 
-    run_btn = st.button("▶  Run Demonstration", use_container_width=True, type="primary")
+    if enc_options:
+        sel_label = st.selectbox(
+            "Select Encounter",
+            list(enc_options.keys()),
+            key="enc_selector",
+        )
+        sel_enc_id = enc_options.get(sel_label)
+    else:
+        st.info("No encounter data found. Ensure sample data is present.")
+        sel_enc_id = None
+
+    run_btn = st.button(
+        "▶  Run Demonstration",
+        use_container_width=True,
+        type="primary",
+        disabled=not bool(enc_options),
+    )
+
     if run_btn:
         st.session_state["running"] = True
         st.session_state["selected_encounter"] = sel_enc_id
@@ -230,7 +280,6 @@ with st.sidebar:
 
     st.divider()
     st.caption("⚠️ Synthetic data only.\nNot for clinical use.")
-
 
 # Convenience alias
 result: PipelineRunResult | None = st.session_state.get("pipeline_result")

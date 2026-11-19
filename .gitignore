@@ -32,3 +32,36 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Phase 0 - generated Synthea files
+phase0_fhir/synthea/
+phase0_fhir/output/
+phase0_fhir/logs/
+phase0_fhir/scripts/__pycache__/
+
+# DDXPlus raw datasets and generated data
+data_sources/ddxplus/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+
+# Allow selected DDXPlus documentation, scripts and definitions
+!data_sources/ddxplus/
+data_sources/ddxplus/*
+!data_sources/ddxplus/*.md
+!data_sources/ddxplus/*.py
+!data_sources/ddxplus/*.json
+
+# Explicitly exclude raw patient datasets
+data_sources/ddxplus/release_*_patients/
+data_sources/ddxplus/release_*_patients.zip
+
+# Large detailed HAPI report
+phase0_fhir/reports/HAPI_IMPORT_READINESS.md
+
+# Local review files
+app_changes_review.txt
+
+# Detailed DDXPlus patient inspection report
+data_sources/ddxplus/DDXPLUS_PATIENT_DATA_INSPECTION.md
